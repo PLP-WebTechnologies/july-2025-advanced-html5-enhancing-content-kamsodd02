@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Assignment page">
+    <meta name="keywords" content="Assignment, Web Development, Enhanced Form">
+    <meta name="author" content="Adebayo Qomorudeen">
+    <title>Enhanced Form of My Web</title>
+    </head>
+<body>
+    <h1>Enhanced Form of My Web</h1>
+        <p>This is an enhanced form of my web development assignment.</p>
+    
+    <h1>Assignment Details</h1>
+        <p>In this assignment, I have created a simple HTML page that includes different forms, such as;
+    <ul>
+        <li>contact
+            <ul>
+                <li>Email input</li>
+                <li>password input</li>
+                <li>username</li>
+            </ul>
+        </li>
+        <li>Radio buttons</li>
+        <li>placeholder</li>
+        <li>textarea</li>
+        <li>Submit button</li>
+    </ul>
+    </p>
+
+    <h2>Table of user-id</h2>
+    <table border="1">
+        <tr>
+            <th>User ID</th>
+            <th>Username</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1034</td>
+            <td>user 1</td>
+            <td>user1@gmail.com</td>
+        </tr>
+        <tr>
+            <td>1035</td>
+            <td>user 2</td>
+            <td>user2@gmail.com</td>
+        </tr>
+        <tr>
+            <td>1036</td>
+            <td>user 3</td>
+            <td>user3@gmail.com</td>
+        </tr>
+    </table>
+    
+    <h2>Image</h2>
+        <p>This is an image of a cross section of a busy night life.</p>
+    <image src="https://images.pexels.com/videos/30837581/pexels-photo-30837581.jpeg?auto=compress&cs=tinysrgb&w=600&loading=lazy" alt="cross section of a busy night life">
+        This image cant be displayed.
+        <br></br>
+    </image>
+
+    <h2>Video</h2>
+        <video controls width="600">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    <h2>Audio</h2>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    <h2>Contact Form</h2>
+        <p>This form collects user contact information.</p>
+    <h4>Email and Password Form</h4>
+        <p>This form collects user email and password with validation.</p>
+    <form action="https://example@domain.com/submit" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password", minlength="8" maxlength="20" required>
+        <br><br>
+    </form>
+    <h4>Username Form</h4>
+    <p>Shows username.</p>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" autocomplete="email-username" required>
+        <br><br>
+    </form>
+
+    <h4>Full_name</h4>
+    <p>Shows user full name.</p>
+    <form>
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" autocomplete="email_full_name">
+        <br><br>
+    </form>
+
+    <h2>Age</h2>
+    <form>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="25" placeholder="25" readonly>
+        <br><br>
+
+    <h2>Radio Button Form</h2>
+     <p>This form allows users to select their gender.</p>
+    <form gender>
+        <label>
+            <input type="radio" name="gender" value="male"> Male
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="gender" value="female"> female
+        </label>
+    </form>
+
+    <h2>Textarea Form</h2>
+    <p>This form allows users to provide additional comments or feedback.</p>
+    <form>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>© 2023 Adebayo Qomorudeen. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
